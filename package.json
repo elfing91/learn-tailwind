@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css"
+    "dev": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/main.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.10"
