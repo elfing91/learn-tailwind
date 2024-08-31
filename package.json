@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "dev": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/main.css",
-    "watch": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/main.css --watch"
+    "dev": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
+    "watch": "npm run dev -- --watch",
+    "watch": "npm run dev -- --watch -- --update"
 
   },
   "devDependencies": {
