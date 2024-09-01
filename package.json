@@ -4,7 +4,7 @@
     "dev": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
     "watch": "npm run dev -- --watch",
     "update": "npm run dev -- --watch -- --update",
-    "serve": "live-server --open=/src/"
+    "serve": "live-server --open=/src/ --port=8090 --host=localhost"
   },
   "devDependencies": {
     "live-server": "^1.2.2",
