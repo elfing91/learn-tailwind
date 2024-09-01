@@ -6,11 +6,9 @@ module.exports = {
     extend: {
       fontSize: {
         xxs: '0.625rem',
-       
-        
       },
       fontFamily: {
-       pre:[ "Pretendard Variable", Pretendard],
+       pre:['"Pretendard Variable", Pretendard, sans-serif'],
       },
     },
   },
